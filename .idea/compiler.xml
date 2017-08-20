@@ -7,8 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="dl4jexperimenter" />
+        <module name="neuralnetexperimenter" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="1.8" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="neuralnetexperimenter" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
