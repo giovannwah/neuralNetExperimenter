@@ -6,12 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="dl4jexperimenter" />
-        <module name="neuralnetexperimenter" />
+        <module name="neural-net-experimenter" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="neuralnetexperimenter" target="1.5" />
+      <module name="neural-net-experimenter" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
